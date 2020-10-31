@@ -1,0 +1,5 @@
+This project represents information model of micro-segmentation network service with following characteristics:
+  1. Technology and vendor agnostic
+  2. Created in Eclypse/Papyrus 4.16
+  3. Free to use, replicate, reuse and refactor
+  4. Not linked to existing information models
