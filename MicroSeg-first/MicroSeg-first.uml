@@ -34,6 +34,9 @@
     <ownedAttribute xmi:type="uml:Property" xmi:id="_REi_EBu5EeuCprNazdiL5w" name="l2ConstructUnrestricted">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
     </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_nfVpwBu8EeuCprNazdiL5w" name="l2ConstructFlooding">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+    </ownedAttribute>
   </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_0PS3IBmsEeuUBaLPtZY_SA" memberEnd="_0PV6cBmsEeuUBaLPtZY_SA _0Pd2QBmsEeuUBaLPtZY_SA">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_0PUsUBmsEeuUBaLPtZY_SA" source="org.eclipse.papyrus">
@@ -103,6 +106,10 @@
     <ownedAttribute xmi:type="uml:Property" xmi:id="_1oZxoht5EeuCprNazdiL5w" name="_trafficRedirect" type="_5WMugBt4EeuCprNazdiL5w" association="_1oZKkBt5EeuCprNazdiL5w"/>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_Myxn4Bu5EeuCprNazdiL5w" name="l3ConstructUnrestricted">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_iXj3oBu8EeuCprNazdiL5w" name="l3ConstructRoute">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_6BAOIBu8EeuCprNazdiL5w" value="*"/>
     </ownedAttribute>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_MHGxIBtrEeuCprNazdiL5w" name="SecurityGroup">
