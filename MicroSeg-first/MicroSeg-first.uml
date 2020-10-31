@@ -31,6 +31,9 @@
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ggCGMBt4EeuCprNazdiL5w"/>
     </ownedAttribute>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_0XCQYBt5EeuCprNazdiL5w" name="_trafficRedirect" type="_5WMugBt4EeuCprNazdiL5w" association="_0XBCQBt5EeuCprNazdiL5w"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_REi_EBu5EeuCprNazdiL5w" name="l2ConstructUnrestricted">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+    </ownedAttribute>
   </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_0PS3IBmsEeuUBaLPtZY_SA" memberEnd="_0PV6cBmsEeuUBaLPtZY_SA _0Pd2QBmsEeuUBaLPtZY_SA">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_0PUsUBmsEeuUBaLPtZY_SA" source="org.eclipse.papyrus">
@@ -98,6 +101,9 @@
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_wrXFUBt4EeuCprNazdiL5w"/>
     </ownedAttribute>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_1oZxoht5EeuCprNazdiL5w" name="_trafficRedirect" type="_5WMugBt4EeuCprNazdiL5w" association="_1oZKkBt5EeuCprNazdiL5w"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_Myxn4Bu5EeuCprNazdiL5w" name="l3ConstructUnrestricted">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+    </ownedAttribute>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_MHGxIBtrEeuCprNazdiL5w" name="SecurityGroup">
     <ownedAttribute xmi:type="uml:Property" xmi:id="_Zwc0UhtuEeuCprNazdiL5w" name="_tenant" type="_iXl8IBm0EeuUBaLPtZY_SA" association="_ZwcNQBtuEeuCprNazdiL5w"/>
@@ -111,6 +117,12 @@
     <ownedAttribute xmi:type="uml:Property" xmi:id="_un6LYhtuEeuCprNazdiL5w" name="_endPointGroup" type="_mmeXIAutEeu8LNtL9Oxh7A" association="_un5kUBtuEeuCprNazdiL5w">
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_un6LYxtuEeuCprNazdiL5w"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_un6ycBtuEeuCprNazdiL5w" value="*"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_v3FZoBuBEeuCprNazdiL5w" name="securityGroupID">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_yRxTYBuBEeuCprNazdiL5w" name="securityGroupName">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
     </ownedAttribute>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_Oi43EBtrEeuCprNazdiL5w" name="SecurityPolicy">
